@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "todo-app",
+  "npmScope": "React-fcc-1",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -75,5 +75,5 @@
       }
     }
   },
-  "defaultProject": "todo-app"
+  "defaultProject": "React-fcc-1"
 }

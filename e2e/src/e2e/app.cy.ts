@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('todo-app', () => {
+describe('React-fcc-1', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('todo-app', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome todo-app');
+    getGreeting().contains('Welcome React-fcc-1');
   });
 });

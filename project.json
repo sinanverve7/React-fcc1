@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/todo-app"
+        "outputPath": "dist/React-fcc-1"
       },
       "configurations": {
         "development": {
@@ -24,15 +24,15 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "todo-app:build"
+        "buildTarget": "React-fcc-1:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "todo-app:build:development",
+          "buildTarget": "React-fcc-1:build:development",
           "hmr": true
         },
         "production": {
-          "buildTarget": "todo-app:build:production",
+          "buildTarget": "React-fcc-1:build:production",
           "hmr": false
         }
       }
@@ -41,23 +41,23 @@
       "executor": "@nrwl/vite:preview-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "todo-app:build"
+        "buildTarget": "React-fcc-1:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "todo-app:build:development"
+          "buildTarget": "React-fcc-1:build:development"
         },
         "production": {
-          "buildTarget": "todo-app:build:production"
+          "buildTarget": "React-fcc-1:build:production"
         }
       }
     },
     "test": {
       "executor": "@nrwl/vite:test",
-      "outputs": ["coverage/todo-app"],
+      "outputs": ["coverage/React-fcc-1"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "coverage/todo-app"
+        "reportsDirectory": "coverage/React-fcc-1"
       }
     },
     "lint": {
